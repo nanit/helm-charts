@@ -3,7 +3,16 @@ entries:
   custom-hpa:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-09-24T17:56:04.4118673+03:00"
+    created: "2020-09-24T18:21:07.1556556+03:00"
+    description: A helm chart for kubernetes custom HPA
+    digest: 2c517ebb05a027c9f5332968934083f523ee987e5c308eae6c6b7bb7029ceb69
+    name: custom-hpa
+    urls:
+    - custom-hpa-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-09-24T18:21:07.1452182+03:00"
     description: A helm chart for kubernetes custom HPA
     digest: 7aba89a9d3e3c760764977b171c650d2c50d2713f43531eaa86484ac8c907aa0
     name: custom-hpa
@@ -12,11 +21,11 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-09-24T17:56:04.3985292+03:00"
+    created: "2020-09-24T18:21:07.1326845+03:00"
     description: A helm chart for kubernetes custom HPA
     digest: 82c329e1613f3b0381b8a6d1b62894cba66ec20d65b2f3a6b13b21415021780e
     name: custom-hpa
     urls:
     - custom-hpa-1.0.0.tgz
     version: 1.0.0
-generated: "2020-09-24T17:56:04.3847986+03:00"
+generated: "2020-09-24T18:21:07.1189564+03:00"
