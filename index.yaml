@@ -3,11 +3,11 @@ entries:
   custom-hpa:
   - apiVersion: v1
     appVersion: v1.0.2
-    created: "2020-09-30T18:00:43.7215209Z"
+    created: "2020-09-30T18:10:32.0392068Z"
     description: A helm chart for kubernetes custom HPA
-    digest: 7a36eb59673953cd5d185d2a5710913b5f74e268fa982ff722ef7ca32ecba0db
+    digest: d2e850a8745a5e269ef8298ccb55ddc3c140445f29dd67b4f39590ee61555b8b
     name: custom-hpa
     urls:
-    - https://github.com/nanit/helm-charts/releases/download/custom-hpa-0.1.10/custom-hpa-0.1.10.tgz
-    version: 0.1.10
-generated: "2020-09-30T18:00:43.3081125Z"
+    - https://github.com/nanit/helm-charts/releases/download/custom-hpa-0.1.11/custom-hpa-0.1.11.tgz
+    version: 0.1.11
+generated: "2020-09-30T18:10:31.612936Z"
