@@ -9,7 +9,7 @@ index:
 		-v $(charts):/charts \
 		-v $(DIR):/index \
 		$(RELEASER_IMAGE) cr index \
-		-c https://github.com/$(OWNER)/$(GIT_REPO) \
+		-c https://$(OWNER).github.com/$(GIT_REPO) \
 		-r $(GIT_REPO) \
 		-i /index \
 		-o $(OWNER) \
