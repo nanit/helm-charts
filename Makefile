@@ -1,4 +1,3 @@
-LATEST_RELEASE=$(shell gh release list | grep Latest | awk '{print $$1}')
 RELEASER_IMAGE=quay.io/helmpack/chart-releaser:v1.0.0
 GIT_REPO=helm-charts
 OWNER=nanit
@@ -21,11 +20,7 @@ index:
 	@echo "Done updating index file"
 
 download-all: cleanup
-ifeq (,$(wildcard ./charts/$(LATEST_RELEASE).tgz))
-	gh release download $(LATEST_RELEASE) -D ./charts
-else
-	@echo "$(LATEST_RELEASE) already exists"
-endif
+	gh release list | awk '{print $$1}' | xargs -I {} gh release download {} -D ./charts
 
 cleanup:
 	rm -rf charts
